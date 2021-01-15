@@ -16,3 +16,8 @@ def main():
         bot.logger.error(err)
     finally:
         bot.die(exit_message)
+
+
+if __name__ == '__main__':
+    main()
+

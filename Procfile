@@ -1,1 +1,1 @@
-worker: greybot
+worker: python -m greybot.cli

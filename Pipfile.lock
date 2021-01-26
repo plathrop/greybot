@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2bce43c6e3f0a57ec2fe994769ad98eca730141d1a6552425ed355cc9040474e"
+            "sha256": "97ce5bb652cc8b1d9b0be18aaf27ac44f051da5190c087e6dabd3460965df33d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,14 @@
         ]
     },
     "default": {
+        "bcp47": {
+            "hashes": [
+                "sha256:309d3bbaef8d6c9ac59d37ba2167cc6620b4e7467ec8f1e09641b659bb1c0c6d",
+                "sha256:4878d2f3e697ef39ef3891a147280705e4377d5a8d7eb0702129b8d4a3718702"
+            ],
+            "index": "pypi",
+            "version": "==0.0.4"
+        },
         "click": {
             "hashes": [
                 "sha256:d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a",
@@ -31,6 +39,11 @@
             ],
             "version": "==1.1.10"
         },
+        "greybot": {
+            "editable": true,
+            "git": "git@github.com:plathrop/greybot.git",
+            "ref": "0a3a7d01d6fb791f27d36adb48aaefcdf9e0f5a1"
+        },
         "irc": {
             "hashes": [
                 "sha256:99fd5d1fa1d054dee4fbb81e0d5193dc1e8200db751d5da9a97850a62162b9ab",
@@ -40,10 +53,10 @@
         },
         "jaraco.classes": {
             "hashes": [
-                "sha256:116429c2047953f525afdcae165475c4589c7b14870e78b2d068ecb01018827e",
-                "sha256:c38698ff8ef932eb33d91c0e8fc192ad7c44ecee03f7f585afd4f35aeaef7aab"
+                "sha256:2229da0dc3e9f29dd14d9ba7cd86e3f66196acfc91131ede786159fbd794ebd9",
+                "sha256:24ec75e16d91bbae0fe89312c5cbbe4b2407d40629dc80463653d23868965c5c"
             ],
-            "version": "==3.1.0"
+            "version": "==3.2.0"
         },
         "jaraco.collections": {
             "hashes": [
@@ -93,6 +106,9 @@
                 "sha256:b3a9005928e5bed54076e6e549c792b306fddfe72b2d1d22dd63d42d5d3899cf"
             ],
             "version": "==8.6.0"
+        },
+        "oxford": {
+            "git": "https://github.com/destroyhimmyrobots/python-oxford-dictionaries-api"
         },
         "pinhook": {
             "hashes": [

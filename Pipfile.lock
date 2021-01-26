@@ -39,11 +39,6 @@
             ],
             "version": "==1.1.10"
         },
-        "greybot": {
-            "editable": true,
-            "git": "git@github.com:plathrop/greybot.git",
-            "ref": "0a3a7d01d6fb791f27d36adb48aaefcdf9e0f5a1"
-        },
         "irc": {
             "hashes": [
                 "sha256:99fd5d1fa1d054dee4fbb81e0d5193dc1e8200db751d5da9a97850a62162b9ab",

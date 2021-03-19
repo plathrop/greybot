@@ -1,5 +1,4 @@
 import faulthandler
-import signal
 
 from greybot.bot import Bot
 

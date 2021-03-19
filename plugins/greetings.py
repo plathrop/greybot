@@ -37,5 +37,6 @@ def greetings_plugin(message):
 
 @pinhook.plugin.command('~add-greeting', help_text='Add a personalized greeting.')
 def add_greeting_plugin(message):
-    message.bot.datastore.sadd(greetings_key(message), message.arg)
-    return pinhook.plugin.action("whirrs and buzzes as he records the new greeting")
+    if datetime.now(timezone.utc) - message.bot.get_join_time(message.channel) > timedelta(seconds=15):
+        message.bot.datastore.sadd(greetings_key(message), message.arg)
+        return pinhook.plugin.action("whirrs and buzzes as he records the new greeting")

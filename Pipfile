@@ -6,11 +6,11 @@ name = "pypi"
 [packages]
 pinhook = "*"
 bcp47 = "*"
+requests = "*"
+beautifulsoup4 = "*"
+redis = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.8"
-
-[packages.oxford]
-git = "https://github.com/destroyhimmyrobots/python-oxford-dictionaries-api"

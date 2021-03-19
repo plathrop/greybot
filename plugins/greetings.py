@@ -21,6 +21,8 @@ def greetings_plugin(message):
     last_seen = message.bot.datastore.getset(last_seen_key, now.isoformat())
     if last_seen is not None:
         last_seen = datetime.fromisoformat(last_seen)
+    else:
+        last_seen = datetime.now(timezone.utc) - timedelta(days=1)
 
     if (now - last_seen) < greetings_interval:
         # Too soon to say anything
